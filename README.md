@@ -1,4 +1,4 @@
-# AI subtitles for Stremio — in your language, with gender right
+# Stremio AI Subtitle Translator — any language, with gender right
 
 **English** · [עברית](README.he.md)
 
