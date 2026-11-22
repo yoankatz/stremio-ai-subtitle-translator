@@ -1,0 +1,16 @@
+{
+  "name": "stremio-ai-subtitles",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Self-hosted Stremio addon: AI-translated subtitles into any language, for any movie, series or anime, with grammatical gender handled",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "start:env": "node --env-file=.env src/server.js",
+    "test": "node --test"
+  }
+}

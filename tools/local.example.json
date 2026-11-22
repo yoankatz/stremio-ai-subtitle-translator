@@ -1,0 +1,6 @@
+{
+  "_comment": "Copy to tools/local.json (not committed). Either give the full addon URL, or the host plus the Railway service the secret is read from.",
+  "addonUrl": "https://your-host.example.com/<ADDON_SECRET>",
+  "host": "https://your-host.example.com",
+  "railwayService": "your-railway-service-name"
+}

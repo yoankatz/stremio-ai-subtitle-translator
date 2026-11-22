@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" font-family="Segoe UI, Arial, Helvetica, sans-serif" role="img" aria-labelledby="title desc">
+  <title id="title">איך נוצרת כתובית</title>
+  <desc id="desc">סטרימיו פותח סרטון. אם כבר יש כתובית בשפה שלך, היא מוצגת ראשונה והתרגום האוטומטי הוא אפשרות נפרדת. אחרת התוסף מתרגם מיד: כתובית המקור והקשר נשלחים ל-Gemini, שמחליט מי מדבר אל מי ומתרגם. התוצאה נשמרת לתמיד.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="598" rx="16" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="450" y="42" text-anchor="middle" direction="rtl" font-size="22" font-weight="700" fill="#1f2328">איך נוצרת כתובית</text>
+
+  <!-- 1. סטרימיו -->
+  <rect x="320" y="66" width="260" height="64" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="450" y="94" text-anchor="middle" direction="rtl" font-size="16" font-weight="700" fill="#1f2328">סטרימיו פותח סרטון</text>
+  <text x="450" y="116" text-anchor="middle" direction="rtl" font-size="13" fill="#59636e">ומבקש מהתוסף כתוביות</text>
+  <line x1="450" y1="130" x2="450" y2="166" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 2. כבר קיימת? -->
+  <rect x="270" y="170" width="360" height="76" rx="10" fill="#fff8c5" stroke="#d4a72c" stroke-width="1.5"/>
+  <text x="450" y="198" text-anchor="middle" direction="rtl" font-size="16" font-weight="700" fill="#1f2328">יש כבר כתובית</text>
+  <text x="450" y="218" text-anchor="middle" direction="rtl" font-size="16" font-weight="700" fill="#1f2328">בשפה שלך?</text>
+  <text x="450" y="237" text-anchor="middle" font-size="12" fill="#59636e">OpenSubtitles · Wizdom</text>
+
+  <!-- כן: לשמאל -->
+  <line x1="270" y1="208" x2="224" y2="208" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="248" y="198" text-anchor="middle" direction="rtl" font-size="13" font-weight="700" fill="#1a7f37">כן</text>
+  <rect x="20" y="150" width="200" height="116" rx="10" fill="#dafbe1" stroke="#4ac26b" stroke-width="1.5"/>
+  <text x="120" y="176" text-anchor="middle" direction="rtl" font-size="14" font-weight="700" fill="#1f2328">מוצגת ראשונה,</text>
+  <text x="120" y="195" text-anchor="middle" direction="rtl" font-size="14" font-weight="700" fill="#1f2328">בשם השפה שלך</text>
+  <text x="120" y="219" text-anchor="middle" direction="rtl" font-size="12" fill="#59636e">התרגום האוטומטי הוא</text>
+  <text x="120" y="236" text-anchor="middle" direction="rtl" font-size="12" fill="#59636e">אפשרות נפרדת, ונעשה</text>
+  <text x="120" y="253" text-anchor="middle" direction="rtl" font-size="12" fill="#59636e">רק אם בוחרים בו</text>
+
+  <!-- לא: למטה -->
+  <line x1="450" y1="246" x2="450" y2="286" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="434" y="272" text-anchor="start" direction="rtl" font-size="13" font-weight="700" fill="#cf222e">לא</text>
+
+  <!-- 3. מתרגמים -->
+  <rect x="170" y="290" width="560" height="176" rx="12" fill="#ffffff" stroke="#54aeff" stroke-width="2"/>
+  <text x="450" y="318" text-anchor="middle" direction="rtl" font-size="17" font-weight="700" fill="#0969da">מתרגמים עכשיו</text>
+
+  <!-- מימין לשמאל: מקור ← הקשר ← Gemini -->
+  <rect x="560" y="334" width="150" height="92" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="635" y="360" text-anchor="middle" direction="rtl" font-size="14" font-weight="700" fill="#1f2328">כתובית מקור</text>
+  <text x="635" y="382" text-anchor="middle" direction="rtl" font-size="12" fill="#59636e">אנגלית, או השפה</text>
+  <text x="635" y="398" text-anchor="middle" direction="rtl" font-size="12" fill="#59636e">הטובה ביותר שיש</text>
+
+  <line x1="560" y1="380" x2="529" y2="380" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="375" y="334" width="150" height="92" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="450" y="356" text-anchor="middle" direction="rtl" font-size="14" font-weight="700" fill="#1f2328">+ הקשר</text>
+  <text x="450" y="376" text-anchor="middle" direction="rtl" font-size="12" fill="#59636e">דמויות ומין של כל אחת</text>
+  <text x="450" y="393" text-anchor="middle" direction="rtl" font-size="12" fill="#59636e">אותן שורות בשפות אחרות</text>
+  <text x="450" y="409" text-anchor="middle" direction="rtl" font-size="12" fill="#59636e">השורות שלפני</text>
+
+  <line x1="375" y1="380" x2="344" y2="380" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="190" y="334" width="150" height="92" rx="8" fill="#ddf4ff" stroke="#54aeff"/>
+  <text x="265" y="360" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2328">Gemini</text>
+  <text x="265" y="382" text-anchor="middle" direction="rtl" font-size="12" fill="#59636e">מחליט מי מדבר אל מי,</text>
+  <text x="265" y="398" text-anchor="middle" direction="rtl" font-size="12" fill="#59636e">ואז מתרגם</text>
+
+  <text x="450" y="452" text-anchor="middle" direction="rtl" font-size="12" fill="#59636e">בלי מפתח &#x2066;Gemini&#x2069;, או כשהוא עמוס, מתרגם &#x2066;Google Translate&#x2069;</text>
+
+  <line x1="450" y1="466" x2="450" y2="500" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 4. נשמר -->
+  <rect x="170" y="504" width="560" height="72" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="450" y="532" text-anchor="middle" direction="rtl" font-size="15" font-weight="700" fill="#1f2328">נשמר לתמיד · הפרק הבא מוכן מראש</text>
+  <text x="450" y="555" text-anchor="middle" direction="rtl" font-size="12" fill="#59636e">הנגן מחכה לקובץ המוכן, בלי הודעת "בתהליך" שהטלוויזיה הייתה נתקעת עליה</text>
+</svg>

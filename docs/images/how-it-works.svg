@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" font-family="Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-labelledby="title desc">
+  <title id="title">How a subtitle is made</title>
+  <desc id="desc">Stremio opens a video. If a subtitle in your language already exists it is shown first and the AI translation is a separate option. Otherwise the addon translates now: the source subtitle plus context goes to Gemini, which decides who speaks to whom and translates. The result is saved for good.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="598" rx="16" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="450" y="42" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2328">How a subtitle is made</text>
+
+  <!-- 1. Stremio -->
+  <rect x="320" y="66" width="260" height="64" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="450" y="94" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2328">Stremio opens a video</text>
+  <text x="450" y="116" text-anchor="middle" font-size="13" fill="#59636e">and asks the addon for subtitles</text>
+  <line x1="450" y1="130" x2="450" y2="166" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 2. Existing? -->
+  <rect x="270" y="170" width="360" height="76" rx="10" fill="#fff8c5" stroke="#d4a72c" stroke-width="1.5"/>
+  <text x="450" y="198" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2328">Is there already a subtitle</text>
+  <text x="450" y="218" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2328">in your language?</text>
+  <text x="450" y="237" text-anchor="middle" font-size="12" fill="#59636e">OpenSubtitles · Wizdom (for Hebrew)</text>
+
+  <!-- yes branch -->
+  <line x1="630" y1="208" x2="676" y2="208" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="652" y="198" text-anchor="middle" font-size="13" font-weight="700" fill="#1a7f37">yes</text>
+  <rect x="680" y="150" width="200" height="116" rx="10" fill="#dafbe1" stroke="#4ac26b" stroke-width="1.5"/>
+  <text x="780" y="176" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2328">Shown first, under</text>
+  <text x="780" y="195" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2328">your language</text>
+  <text x="780" y="219" text-anchor="middle" font-size="12" fill="#59636e">The AI translation is a</text>
+  <text x="780" y="236" text-anchor="middle" font-size="12" fill="#59636e">separate option, made</text>
+  <text x="780" y="253" text-anchor="middle" font-size="12" fill="#59636e">only if you pick it</text>
+
+  <!-- no branch -->
+  <line x1="450" y1="246" x2="450" y2="286" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="466" y="272" font-size="13" font-weight="700" fill="#cf222e">no</text>
+
+  <!-- 3. Translate -->
+  <rect x="170" y="290" width="560" height="176" rx="12" fill="#ffffff" stroke="#54aeff" stroke-width="2"/>
+  <text x="450" y="318" text-anchor="middle" font-size="17" font-weight="700" fill="#0969da">Translate now</text>
+
+  <rect x="190" y="334" width="150" height="92" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="265" y="360" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2328">Source subtitle</text>
+  <text x="265" y="382" text-anchor="middle" font-size="12" fill="#59636e">English, or the best</text>
+  <text x="265" y="398" text-anchor="middle" font-size="12" fill="#59636e">other language</text>
+
+  <line x1="340" y1="380" x2="371" y2="380" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="375" y="334" width="150" height="92" rx="8" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="450" y="356" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2328">+ Context</text>
+  <text x="450" y="376" text-anchor="middle" font-size="12" fill="#59636e">cast with genders</text>
+  <text x="450" y="393" text-anchor="middle" font-size="12" fill="#59636e">same lines in other</text>
+  <text x="450" y="409" text-anchor="middle" font-size="12" fill="#59636e">languages · lines before</text>
+
+  <line x1="525" y1="380" x2="556" y2="380" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="560" y="334" width="150" height="92" rx="8" fill="#ddf4ff" stroke="#54aeff"/>
+  <text x="635" y="360" text-anchor="middle" font-size="14" font-weight="700" fill="#1f2328">Gemini</text>
+  <text x="635" y="382" text-anchor="middle" font-size="12" fill="#59636e">decides who speaks to</text>
+  <text x="635" y="398" text-anchor="middle" font-size="12" fill="#59636e">whom, then translates</text>
+
+  <text x="450" y="452" text-anchor="middle" font-size="12" fill="#59636e">Without a Gemini key, or when it is busy: Google Translate as a fallback</text>
+
+  <line x1="450" y1="466" x2="450" y2="500" stroke="#57606a" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- 4. Saved -->
+  <rect x="170" y="504" width="560" height="72" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="450" y="532" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2328">Saved for good · the next episode is prepared ahead</text>
+  <text x="450" y="555" text-anchor="middle" font-size="12" fill="#59636e">The player waits for the finished file - no "translation in progress" placeholder that a TV would keep</text>
+</svg>
